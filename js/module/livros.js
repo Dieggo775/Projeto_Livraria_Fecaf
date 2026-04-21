@@ -3,12 +3,12 @@ export const livros = [
     "genero": "Tecnologia da Informação",
     "books": [
         {
-            "title": "Learn Enough JavaScript to Be Dangerous",
+            "title": "Aula de front-end",
             "subtitle": "Write Programs, Publish Packages, and Develop Interactive Websites with JavaScript",
             "isbn13": "9780137843749",
             "price": "$31.98",
-            "image": "https://itbook.store/img/books/9780137843749.png",
-            "url": "https://m.media-amazon.com/images/I/61X28BsgCfL._SL1043_.jpg"
+            "image": "https://www.casadocodigo.com.br/cdn/shop/products/GuiaFront-End_ebook_large.jpg?v=1631721284",
+            "url": "https://itbook.store/books/9780137843749"
         },
         {
             "title": "Effective JavaScript",
@@ -23,7 +23,7 @@ export const livros = [
             "subtitle": "A Hands-On Guide to the Fundamentals of Modern JavaScript",
             "isbn13": "9780321832740",
             "price": "$8.99",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQscACGGYAoGNT1mHVftYmAk4hPISMbsN1Qdg&s",
+            "image": "https://itbook.store/img/books/9780321832740.png",
             "url": "https://itbook.store/books/9780321832740"
         },
         {

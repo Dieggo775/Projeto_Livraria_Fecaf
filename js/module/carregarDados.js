@@ -15,7 +15,7 @@ import { livros } from "./livros.js";
 const setCreateCard = function(bibliotecaLivros) {
     let divCardProdutos = document.getElementById('cardProdutos')
 
-    bibliotecaLivros[0].books.forEach(function(itemLivro) {
+    bibliotecaLivros.books.forEach(function(itemLivro) {
         
         //Cria elementos no HTML
         let divCaixa_produto        = document.createElement('div')
@@ -54,6 +54,17 @@ const setCreateCard = function(bibliotecaLivros) {
     })
 }
 
+const getDadosLivrosAPI = async function() {
+    let url = 'https://projeto-livraria-latx.onrender.com/v2/livraria/livro/'
+
+    let response = await fetch(url)
+
+    let dados = await response.json()
+
+    setCreateCard(dados)
+}
+
 window.addEventListener('load', function(){
-    setCreateCard(livros)
+    // setCreateCard(livros)
+    getDadosLivrosAPI()
 })
