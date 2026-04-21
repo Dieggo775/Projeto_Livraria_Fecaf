@@ -8,7 +8,7 @@ export const livros = [
             "isbn13": "9780137843749",
             "price": "$31.98",
             "image": "https://itbook.store/img/books/9780137843749.png",
-            "url": "https://itbook.store/books/9780137843749"
+            "url": "https://m.media-amazon.com/images/I/61X28BsgCfL._SL1043_.jpg"
         },
         {
             "title": "Effective JavaScript",
@@ -23,7 +23,7 @@ export const livros = [
             "subtitle": "A Hands-On Guide to the Fundamentals of Modern JavaScript",
             "isbn13": "9780321832740",
             "price": "$8.99",
-            "image": "https://itbook.store/img/books/9780321832740.png",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQscACGGYAoGNT1mHVftYmAk4hPISMbsN1Qdg&s",
             "url": "https://itbook.store/books/9780321832740"
         },
         {
